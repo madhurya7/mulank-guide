@@ -30,6 +30,30 @@ body {
   color: transparent !important;
 }
 
+@keyframes profileFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.animate-profile-photo {
+  animation: profileFadeUp 0.7s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+.animate-profile-name {
+  animation: profileFadeUp 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.1s both;
+}
+.animate-profile-subtitle {
+  animation: profileFadeUp 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.2s both;
+}
+.animate-profile-eyebrow {
+  animation: profileFadeUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
 @media (prefers-reduced-motion: reduce) {
   * {
     animation-duration: 0.001ms !important;

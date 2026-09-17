@@ -13,10 +13,10 @@ const MulankCard = forwardRef<HTMLDivElement, Props>(({ mulank, data, highlighte
       ref={ref}
       id={`mulank-${mulank}`}
       tabIndex={-1}
-      className={`bg-white border rounded-xl2 shadow-card px-6 py-6 transition-all hover:-translate-y-0.5 ${
+      className={`bg-white border rounded-xl2 shadow-card p-6 transition-all hover:-translate-y-0.5 ${
       highlighted ? "border-marigold ring-4 ring-marigoldSoft" : "border-black/10 hover:border-black/[0.18]"
       }`}
-      style={{ scrollMarginTop: "20px", margin: "16px" }}
+      style={{ scrollMarginTop: "20px" }}
     >
       <div className="flex items-center justify-between mb-2.5">
       <div className="flex items-center gap-2.5">

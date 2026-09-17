@@ -81,7 +81,7 @@ export default function MulankLookup({ currentYear, onFound }: Props) {
             <button
               type="button"
               onClick={handleLookup}
-              className="px-4.5 py-2.5 rounded-[10px] border-none bg-marigold text-[#3A2600] font-semibold text-[13.5px] cursor-pointer hover:brightness-105"
+              className="px-5 py-3 rounded-[10px] border-none bg-marigold text-[#3A2600] font-semibold text-[12.5px] cursor-pointer hover:brightness-105 leading-none"
             >
               Find My Mulank
             </button>

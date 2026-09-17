@@ -15,6 +15,7 @@ export const CITIES: City[] = [
   { key: "chennai", label: "Chennai, India", group: "India", lat: 13.0827, lon: 80.2707, tz: "Asia/Kolkata" },
   { key: "bengaluru", label: "Bengaluru, India", group: "India", lat: 12.9716, lon: 77.5946, tz: "Asia/Kolkata" },
   { key: "hyderabad", label: "Hyderabad, India", group: "India", lat: 17.385, lon: 78.4867, tz: "Asia/Kolkata" },
+  { key: "guwahati", label: "Guwahati, India", group: "India", lat: 26.1445, lon: 91.7362, tz: "Asia/Kolkata" },
 
   // USA & Canada
   { key: "newyork", label: "New York, USA", group: "USA & Canada", lat: 40.7128, lon: -74.006, tz: "America/New_York" },
