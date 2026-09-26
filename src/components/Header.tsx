@@ -8,7 +8,7 @@ interface Props {
 
 // ---- Edit these two lines with your actual name and title ----
 const PROFILE_NAME = "Daily Numerology & Panchang";
-const PROFILE_TITLE = "Numerologist & Vedic Astrology Guide";
+const PROFILE_TITLE = "Numerology & Vedic Astrology Guide";
 // -----------------------------------------------------------------
 
 export default function Header({ istDate }: Props) {
