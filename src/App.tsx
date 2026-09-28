@@ -17,7 +17,7 @@ export default function App() {
     return () => clearTimeout(t);
   }, []);
 
-  // Watch for IST calendar-date rollover; only regenerate when the date actually changes.
+  // Watch for ISTsss calendar-date rollover; only regenerate when the date actually changes.
   useEffect(() => {
     if (!istDate) return;
     const id = setInterval(() => {
